@@ -191,7 +191,7 @@ const playerOneChoose = (icon) => {
 };
 const playerTwoChoose = () => {
   // getRandomChoice
-  let rando = Math.floor(Math.random() * (3 - 1) +1)
+  let rando = Math.floor(Math.random() * (4 - 1) +1)
   console.log(rando,"Random")
   if(rando === 1){
     p2Currently = "rock"
